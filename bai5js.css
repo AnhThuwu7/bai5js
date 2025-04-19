@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.product-table {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    background-color: #fff;
+    width: 700px;
+}
+
+th.header {
+    background-color: pink;
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+td {
+    border: 1px solid #000;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.book-img {
+    width: 200px;
+}
+
+.info-table td {
+    padding: 5px;
+}
+
+.highlight {
+    color: red;
+    font-weight: bold;
+}
+
+.topic {
+    color: red;
+    font-style: italic;
+}
+
+.price-row {
+    text-align: right;
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+.price {
+    color: red;
+    font-weight: bold;
+}
+
+.btn-row {
+    text-align: center;
+    padding: 15px;
+}
+
+.order-button {
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
